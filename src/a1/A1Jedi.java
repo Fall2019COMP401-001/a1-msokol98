@@ -43,7 +43,7 @@ public class A1Jedi {
 				String nameCertainItem = scan.next();
 				for(Item i: items) {
 					if(i.name.equalsIgnoreCase(nameCertainItem)) {
-						i.timesBought += 1;
+						i.timesBought += numCertainItem;
 						cusItems.add(i);
 					}
 				}
