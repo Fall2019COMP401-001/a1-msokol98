@@ -58,7 +58,7 @@ public class A1Jedi {
 			if(i.numCustomersBoughtBy == 0) {
 				System.out.println("No customers bought " + i.name);
 			} else {
-				System.out.println(i.numCustomersBoughtBy + " customers bought " + i.name);
+				System.out.println(i.numCustomersBoughtBy + " customers bought " + i.timesBought + " " + i.name);
 			}
 		}
 	}
